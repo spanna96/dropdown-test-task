@@ -1,0 +1,74 @@
+.MultiSelectContainer {
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+
+.MultiSelectContainer,
+.MultiSelectContainer *,
+.MultiSelectContainer ::after,
+.MultiSelectContainer ::before {
+  box-sizing: border-box;
+}
+
+.MultiSelectContainer ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.MultiSelectContainer li {
+  padding: 10px 10px;
+}
+
+.MultiSelectContainer li:hover {
+  background: #37a5ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.SearchInput {
+  font-size: 16px;
+  margin: 5px;
+  margin-left: 0;
+  border: none;
+  background: transparent;
+  height: 34px;
+  flex-grow: 1;
+}
+
+.SearchInput:focus {
+  outline: none;
+}
+
+.SearchWrapper {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 5px;
+  min-height: 56px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.OptionListWrapper {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 1px;
+  z-index: 2;
+}
+
+.OptionListWrapper.hidden {
+  display: none;
+}
+
+.notFoundMessage {
+  padding: 10px;
+  display: block;
+}

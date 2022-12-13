@@ -1,0 +1,11 @@
+.SingleOption.selected {
+  background-color: #7dcafd;
+}
+
+.SingleOption .name {
+  font-weight: bold;
+}
+
+.SingleOption .description {
+  margin-left: 10px;
+}

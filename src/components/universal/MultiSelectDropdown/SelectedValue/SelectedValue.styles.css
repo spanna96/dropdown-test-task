@@ -1,0 +1,23 @@
+.SelectedValue {
+  padding: 4px 10px;
+  background: #37a5ff;
+  margin: 5px;
+  margin-left: 0;
+  border-radius: 11px;
+  display: inline-flex;
+  align-items: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 19px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.SelectedValue-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.SelectedValue-icon img {
+  fill: white;
+}
